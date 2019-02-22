@@ -1,0 +1,10 @@
+# QtCreator
+*.pro.user
+# Build
+/jcat
+*.o
+*.so
+Makefile
+moc_*.cpp
+moc_*.h
+.qmake.stash
