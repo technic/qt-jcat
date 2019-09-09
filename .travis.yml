@@ -5,7 +5,7 @@ os:
 
 install:
   - sudo apt-get update -yq
-  - sudo apt-get install -yq sqlite3 qt5-dev-tools
+  - sudo apt-get install -yq qt5-qmake qt5-default
 
 script:
   - qmake
