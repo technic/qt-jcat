@@ -4,6 +4,7 @@ os:
   - linux
 
 install:
+  - sudo apt-get update -yq
   - sudo apt-get install -yq sqlite3 qt5-dev-tools
 
 script:
