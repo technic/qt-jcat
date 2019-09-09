@@ -1,4 +1,7 @@
 # jcat
+
+[![Build Status](https://travis-ci.org/technic/qt-jcat.svg?branch=master)](https://travis-ci.org/technic/qt-jcat)
+
 Micro console utility to dump binary QJsonDocument contents. For example:
 ```bash
 $ ./jcat ~/.local/share/plasma/plasmoids/kpluginindex.json
