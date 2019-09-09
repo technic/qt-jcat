@@ -1,0 +1,11 @@
+language: cpp
+
+os:
+  - linux
+
+install:
+  - sudo apt-get install -yq sqlite3 qt5-dev-tools
+
+script:
+  - qmake
+  - make
