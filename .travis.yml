@@ -2,11 +2,25 @@ language: cpp
 
 os:
   - linux
+  - osx
 
-install:
-  - sudo apt-get update -yq
-  - sudo apt-get install -yq qt5-qmake qt5-default
-
-script:
-  - qmake
-  - make
+jobs:
+  include:
+  - os: linux
+    install:
+      - sudo apt-get update -yq
+      - sudo apt-get install -yq qt5-qmake qt5-default
+    compiler:
+      - clang
+      - gcc
+    script:
+      - qmake
+      - make
+  - os: osx
+    install:
+      - brew install qt
+      - brew link qt5 --force
+    script:
+      - qmake
+      - make
+      
