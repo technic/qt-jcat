@@ -1,9 +1,5 @@
 language: cpp
 
-os:
-  - linux
-  - osx
-
 jobs:
   include:
   - os: linux
@@ -20,4 +16,3 @@ jobs:
     script:
       - qmake
       - make
-      
