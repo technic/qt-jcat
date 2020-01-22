@@ -7,7 +7,7 @@ Micro console utility to dump binary QJsonDocument contents. For example:
 $ ./jcat ~/.local/share/plasma/plasmoids/kpluginindex.json
 [
     {
-        "FileName": "/home/maistrenko/.local/share/plasma/plasmoids/org.kde.simpleMonitor/metadata.desktop",
+        "FileName": "/home/user/.local/share/plasma/plasmoids/org.kde.simpleMonitor/metadata.desktop",
         "KPlugin": {
             "Authors": [
                 {
@@ -46,7 +46,7 @@ $ ./jcat ~/.local/share/plasma/plasmoids/kpluginindex.json
         "X-Plasma-StandAloneApp": true
     },
     {
-        "FileName": "/home/maistrenko/.local/share/plasma/plasmoids/org.kde.windowtitle/metadata.desktop",
+        "FileName": "/home/user/.local/share/plasma/plasmoids/org.kde.windowtitle/metadata.desktop",
         "KPlugin": {
             "Authors": [
                 {
